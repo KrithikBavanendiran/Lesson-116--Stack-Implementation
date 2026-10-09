@@ -1,0 +1,18 @@
+push()
+uses Lifo
+append an item to the stack
+head=temp
+head>next=temp
+
+
+pop()
+check if head is NULL and print stack is empty
+create temp node and store head in temp mode
+ke head as head's next node
+
+Time complextiy
+push() O(1)
+pop() O(1)
+isEmpty() O(1)
+top_element() O(1)
+print_stack() O(n)
